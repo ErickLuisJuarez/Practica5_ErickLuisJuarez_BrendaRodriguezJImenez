@@ -1,1 +1,0 @@
-# Practica5_ErickLuisJuarez_BrendaRodriguezJImenez
