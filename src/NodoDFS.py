@@ -45,6 +45,7 @@ class NodoDFS(Nodo):
 
         while True:
             mensaje = yield self.canal_entrada.get()
+            yield env.timeout(randint(1, 3))  # tiempo aleatorio entre recepcion de mensajes
             tipo = mensaje[0]
 
             # when START() is received do
